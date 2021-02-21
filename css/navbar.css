@@ -10,8 +10,8 @@ body {
 }
 
 nav {
-    height: 100px;
-    background: #dfbf9f;
+    height: 90px;
+    background: #4a3933;
 }
 
 nav img {
@@ -34,7 +34,7 @@ nav ul li{
 
 nav ul li a {
     position: relative;
-    color: beige;
+    color: #fff;
     font-size: 18px;
     padding: 5px 0;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ nav ul li a:before{
     bottom: 0;
     height: 3px;
     width: 100%;
-    background: beige;
+    background: #fff;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .4s linear;
@@ -60,7 +60,7 @@ nav ul li a:hover:before{
 
 label #btn,
 label #cancel {
-    color: beige;
+    color: #fff;
     font-size: 30px;
     float: right;
     line-height: 80px;
